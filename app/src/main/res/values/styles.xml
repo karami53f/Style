@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MyButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#9365ca</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+
+    <style name="MyButton.Green">
+        <item name="android:background">#51c125</item>
+    </style>
+
+    <style name="SmallButton" parent="MyButton.Green">
+        <item name="android:layout_width">100dp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">#8e2525</item>
+        <item name="colorPrimary">#b43232</item>
+        <item name="colorAccent">#122701</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">#51c125</item>
+    </style>
+    <style name="NoActionbarTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MyText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#c20d37</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+</resources>
